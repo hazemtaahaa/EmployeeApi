@@ -26,7 +26,7 @@ A simple .NET Core Web API to manage employees, using SQL Server, Entity Framewo
 git clone https://github.com/hazemtaahaa/EmployeeApi.git
 cd EmployeeApi
 
-2. **Update your database on consle packge manger:**
-    database-update
+2. **Update your database using Package Manager Console in Visual Studio:**
+    Update-Database
 3. **Run the API**
 
