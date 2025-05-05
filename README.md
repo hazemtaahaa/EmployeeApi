@@ -28,5 +28,5 @@ cd EmployeeApi
 
 2. **Update your database on consle packge manger:**
     database-update
-3- Run the API
+3. **Run the API**
 
