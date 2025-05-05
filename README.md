@@ -30,6 +30,8 @@ cd EmployeeApi
 ```
 
 2. **Update your database using Package Manager Console in Visual Studio:**
+ ```bash
     Update-Database
-3. **Run the API**
+```
+4. **Run the API**
 
