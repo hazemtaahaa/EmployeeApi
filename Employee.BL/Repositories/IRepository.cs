@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 
-namespace EmployeeApi;
+namespace Employee.BL;
 
 public interface IRepository<T> where T : class
 {

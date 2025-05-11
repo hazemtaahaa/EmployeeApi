@@ -1,4 +1,4 @@
-﻿namespace EmployeeApi;
+﻿namespace Employee.BL;
 
 public interface IUnitOfWork 
 {

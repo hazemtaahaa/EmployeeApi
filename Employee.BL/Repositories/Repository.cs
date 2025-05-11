@@ -1,7 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Employee.DAL;
+using Microsoft.EntityFrameworkCore;
 using System.Linq.Expressions;
 
-namespace EmployeeApi;
+namespace Employee.BL;
 
 public class Repository<T> : IRepository<T> where T : class
 {
