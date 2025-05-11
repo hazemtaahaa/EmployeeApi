@@ -1,6 +1,10 @@
-﻿namespace EmployeeApi;
+﻿using Employee.DAL;
 
-public class EmployeesRepository : Repository<Employee>,IEmployeesRepository
+
+
+namespace Employee.BL;
+
+public class EmployeesRepository : Repository<EmployeeEntity>,IEmployeesRepository
 {
     private readonly AppDbContext _context;
     public EmployeesRepository(AppDbContext context): base(context)

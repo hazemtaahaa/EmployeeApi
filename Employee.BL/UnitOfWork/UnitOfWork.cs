@@ -1,4 +1,6 @@
-﻿namespace EmployeeApi;
+﻿using Employee.DAL;
+
+namespace Employee.BL;
 
 public class UnitOfWork : IUnitOfWork
 {

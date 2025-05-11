@@ -1,4 +1,5 @@
-using EmployeeApi;
+using Employee.BL;
+using Employee.DAL;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Registers
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-builder.Services.AddScoped<EmployeeManager>();
+builder.Services.AddScoped<IEmployeeManager,EmployeeManager>();
 
 // Add CORS policy
 builder.Services.AddCors(options =>
